@@ -1,0 +1,6 @@
+{
+  "summary":  "Dokumentation der On-Demand-Generierung der 3 Fakten-Karten: Bei Klick auf ein Thema im Archiv («Carica nel Dossier») werden die bisherigen Karten sofort geleert, ein animierter Recherche-Ladezustand angezeigt und exakt 3 maßgeschneiderte Fakten-Karten für das gewählte Thema neu generiert.",
+  "updatedAt":  "2026-10-22T12:31:00.726021932Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

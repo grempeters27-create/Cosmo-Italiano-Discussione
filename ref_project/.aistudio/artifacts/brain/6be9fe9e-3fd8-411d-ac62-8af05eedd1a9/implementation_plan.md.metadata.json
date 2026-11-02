@@ -1,0 +1,6 @@
+{
+  "summary": "Piano di implementazione per l'eliminazione del vincolo rigido B1 e l'introduzione del Livello Linguistico Adattivo (scala 0-100 con stadi descrittivi) gestito autonomamente dall'IA tramite memoria permanente e feedback di difficoltà post-chiamata (Troppo difficile / Perfetto / Troppo facile).",
+  "updatedAt": "2026-10-17T15:49:19.379198827Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

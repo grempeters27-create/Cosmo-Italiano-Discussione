@@ -1,0 +1,10 @@
+{
+  "name": "v5  - Cosmo Italiano Discusione",
+  "description": "Diskutiere die Podcast Episoden von Cosmo Italiano auf Italienisch",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

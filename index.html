@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>v5  - Cosmo Italiano Discusione</title>
+    <meta name="description" content="Diskutiere die Podcast Episoden von Cosmo Italiano auf Italienisch" />
+    <meta property="og:title" content="v5  - Cosmo Italiano Discusione" />
+    <meta property="og:description" content="Diskutiere die Podcast Episoden von Cosmo Italiano auf Italienisch" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // Ignore HMR / Vite WebSocket transport errors per environment specification
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event && event.reason;
+        var msg = (reason && (reason.message || String(reason))) || '';
+        var stack = (reason && reason.stack) || '';
+        if (
+          msg.includes('WebSocket') ||
+          msg.includes('vite') ||
+          stack.includes('@vite/client') ||
+          stack.includes('createWebSocketModuleRunnerTransport')
+        ) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        var msg = (event && event.message) || '';
+        var filename = (event && event.filename) || '';
+        if (
+          msg.includes('WebSocket') ||
+          filename.includes('@vite/client') ||
+          msg.includes('createWebSocketModuleRunnerTransport')
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

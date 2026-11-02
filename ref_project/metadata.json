@@ -1,0 +1,10 @@
+{
+  "name": "v6 -Amico Italiano - Live Chat",
+  "description": "Dein persönlicher, sympathischer Italienischlehrer für tägliche Audio-Gespräche, Feedback, Übungen und italienische Kultur.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

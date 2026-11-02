@@ -1,0 +1,5 @@
+{
+  "summary":  "Implementierung verifizierter Original-Artikel-Links (HTTP 200) für die neueste Podcast-Folge («La crisi dei bar italiani preoccupa anche la Germania») sowie ein dynamischer Live-News-Resolver und Bereinigung aller allgemeinen Portal-URLs (wie theguardian.com/world), damit auch zukünftige Podcasts stets direkt auf konkrete Artikel führen.",
+  "updatedAt":  "2026-10-30T08:52:31.510201283Z",
+  "userFacing":  true
+}
